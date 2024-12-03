@@ -126,7 +126,7 @@ export function Template({ children }: { children: React.ReactNode }) {
   );
 
   const renderNavbarAsideContent = () => (
-    <Accordion defaultValue="Colors">
+    <Accordion defaultValue="Colors" style={{ backgroundColor: store.sideNavColor, height: '100%' }}>
       <ColorsAccordion />
       <SizesAccordion />
       <PositioningAccordion />

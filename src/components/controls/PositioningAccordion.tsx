@@ -8,7 +8,7 @@ export function PositioningAccordion() {
                 <div>
                     <Text fw={500}>Positioning</Text>
                     <Text size="sm" c="dimmed" fw={400}>
-                        Change the positioning of the app
+                        Change the layout of the app
                     </Text>
                 </div>
             </Accordion.Control>
